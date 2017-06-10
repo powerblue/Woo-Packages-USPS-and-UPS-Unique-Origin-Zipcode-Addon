@@ -2,9 +2,9 @@
 /**
 Plugin Name: USPS and UPS Unique Origin Addon
 Description: Enable multiple shipping origin locations, requires USPS calculator plugin
-Author: John Bland
+Author: Sky43
 Version: 1.2
-Author URI: http://johnisbland.com
+Author URI: http://sky43.com
 */
 
 add_filter('woocommerce_package_rates','platinum_overwrite_usps',100,2);
